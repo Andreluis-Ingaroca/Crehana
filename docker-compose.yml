@@ -1,0 +1,12 @@
+version: '3'
+services:
+  course-service:
+    image: course-service:latest
+    ports:
+      - 8092:8092
+    networks:
+      - ingaroca
+networks:
+  ingaroca:
+
+
